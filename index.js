@@ -14,7 +14,7 @@ fetch(
         return `<article class="blog-card">
         <div class="blog-card_content">
             <h4 class="blog-card_paragraph_text_blue">World</h4>
-            <h2 class="blog-card_title">${data.tile}</h2>
+            <h2 class="blog-card_title">${data.title}</h2>
             <p class="blog-card_date">Nov 12.</p>
             <p class="blog-card_content">
             ${data.body}
