@@ -1,5 +1,4 @@
-const headerTitle = document.querySelector("h1");
-const container = document.querySelector("blog-card_content");
+const articleContainer = document.querySelector("blog-card_content");
 
 fetch(
     'https://jsonplaceholder.typicode.com/todos/1'
@@ -23,5 +22,5 @@ fetch(
         <a class="blog-card_link" href="#">Continue reading</a>
     </article>`
     }).join(''); // convert to array
-   headerTitle.innerHTML = template;
+   articleContainer.innerHTML = template;
   }); // json is consumed from the previous promise
